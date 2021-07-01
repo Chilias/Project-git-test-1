@@ -1,0 +1,53 @@
+.container {
+   width: 1024px;
+   margin: 0 auto;
+   
+}
+
+.h1 {
+   display: flex;
+   margin: 0 auto;
+   /* width: max-content; */
+   height: 50px;
+   border: 1px solid black;
+   border-radius: 5px;
+   background-color: green;
+   justify-content: center;
+   align-items: center;
+}
+
+.cont {
+   display: flex;
+}
+
+.field {
+   margin: 10px 10px;
+   border: 1px solid black;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.field_input {
+   height: 20px;
+   margin-top: 3px;
+   padding-left: 5px;
+   border: 1px solid black;
+   border-radius: 3px;
+   background-color: rgb(95, 128, 138);
+   color: rgb(255, 255, 255);
+   font-size: 14px;
+}
+
+.field_input::placeholder { 
+   color: rgba(255, 255, 255, 0.459);
+   font-size: 14px; 
+}
+
+.field_input-1 {
+   width: 15em;
+}
+
+.field_input-2 {
+   width: 17em;
+}
+
